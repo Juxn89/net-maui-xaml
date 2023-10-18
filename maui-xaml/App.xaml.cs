@@ -1,4 +1,5 @@
-﻿using Features = maui_xaml.Views.Features;
+﻿using maui_xaml.Views.Triggers;
+
 namespace maui_xaml
 {
     public partial class App : Application
@@ -9,7 +10,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            MainPage = new Features.DarkAndLightMode();
+            MainPage = new TriggerPropiedadPage();
         }
     }
 }
