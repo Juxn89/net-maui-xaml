@@ -29,3 +29,4 @@ nos permite llevar los datos a nuestra interfaz de usuario. Tienes dos modos de 
 - [Platform integration](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/)
 - [Open the map app](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/appmodel/maps?tabs=android)
 - [Create a cross-platform app with .NET MAUI | Implementación de la API de teléfono](https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/)
+- [Build accessible apps with semantic properties](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/accessibility)

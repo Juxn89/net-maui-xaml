@@ -13,7 +13,12 @@
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="90,45,20,0" />
             </Border.StrokeShape>
-            <Label Text="Hi! I have a Platzi border!" TextColor="#97ca3f" FontSize="25" FontAttributes="Bold"/>
+            <Label 
+                Text="Hi! I have a Platzi border!" 
+                TextColor="#97ca3f" 
+                FontSize="25" 
+                FontAttributes="Bold"
+                FontAutoScalingEnabled="True"/>
         </Border>
     </VerticalStackLayout>
 </ContentPage>
