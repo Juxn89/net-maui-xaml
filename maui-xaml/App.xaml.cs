@@ -9,7 +9,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            MainPage = new Features.Borders();
+            MainPage = new Features.DarkAndLightMode();
         }
     }
 }
