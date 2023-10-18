@@ -1,5 +1,4 @@
-﻿using maui_xaml.Views.BindingsSample;
-
+﻿using Features = maui_xaml.Views.Features;
 namespace maui_xaml
 {
     public partial class App : Application
@@ -10,10 +9,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            //MainPage = new BindingSamplePage();
-            var navPage = new NavigationPage(new BindingSamplePage());
-            Navigation = navPage.Navigation;
-            MainPage = navPage;
+            MainPage = new Features.Shadows();
         }
     }
 }

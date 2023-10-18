@@ -8,7 +8,11 @@ nos permite llevar los datos a nuestra interfaz de usuario. Tienes dos modos de 
 - [Data binding and MVVM](https://learn.microsoft.com/en-us/dotnet/maui/xaml/fundamentals/mvvm)
 - [CollectionView](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/collectionview/)
 - [Define an EmptyView for a CollectionView](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/collectionview/emptyview?view=net-maui-7.0)
-### Splash Screen
+### Shadows
+- **Brush:** color de sombra.
+- **Opacity:** opacidad de la sombra.
+- **Radius:** radio del desemfocque gaussiano para generar la sombra.
+- **Offset:** offset de la sombra con relación al elemento visual que contiene.
 
 ### Others
 - [Platform integration](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/)
