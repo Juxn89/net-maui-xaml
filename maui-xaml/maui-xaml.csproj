@@ -61,6 +61,9 @@
 	  <MauiXaml Update="Views\BindingsSample\BindingSamplePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Features\Borders.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Features\Map.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
