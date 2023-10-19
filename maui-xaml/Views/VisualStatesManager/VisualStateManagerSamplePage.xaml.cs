@@ -7,13 +7,13 @@ public partial class VisualStateManagerSamplePage : ContentPage
 	public VisualStateManagerSamplePage()
 	{
 		InitializeComponent();
-        GoToState(false);
 	}
 
-    private void onTextChanged(object sender, TextChangedEventArgs e)
+    private void OnTextChanged(object sender, TextChangedEventArgs e)
     {
         string expresion = "\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
         bool isValid = Regex.IsMatch(e.NewTextValue, expresion);
+        GoToState(isValid);
     }
 
     void GoToState(bool isValid) {

@@ -5,17 +5,18 @@
              Title="VisualStateManagerSamplePage">
     <VerticalStackLayout Padding="20">
         <Label Text="Write your email" FontSize="20" />
-        <Entry x:Name="EntryEmail" FontSize="20" TextChanged="onTextChanged">
+        <Entry x:Name="EntryEmail" FontSize="20"
+                   TextChanged="OnTextChanged">
             <VisualStateManager.VisualStateGroups>
                 <VisualStateGroup Name="EmailValidation">
                     <VisualState Name="Incorrect">
                         <VisualState.Setters>
-                            <Setter Property="BackgroundColor" Value="#fae2e8" />
+                            <Setter Property="BackgroundColor" Value="#FAE2E8" />
                         </VisualState.Setters>
                     </VisualState>
                     <VisualState Name="Correct">
                         <VisualState.Setters>
-                            <Setter Property="BackgroundColor" Value="#cdeeea" />
+                            <Setter Property="BackgroundColor" Value="#CDEEEA" />
                         </VisualState.Setters>
                     </VisualState>
                 </VisualStateGroup>
