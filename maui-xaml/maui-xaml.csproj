@@ -76,6 +76,9 @@
 	  <MauiXaml Update="Views\Triggers\TriggerDataPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Triggers\TriggerEventPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Triggers\TriggerPropiedadPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

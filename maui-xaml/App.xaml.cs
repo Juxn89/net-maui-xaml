@@ -10,7 +10,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            MainPage = new TriggerDataPage();
+            MainPage = new TriggerEventPage();
         }
     }
 }
