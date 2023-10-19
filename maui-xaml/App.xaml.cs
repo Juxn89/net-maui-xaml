@@ -1,4 +1,5 @@
-﻿using maui_xaml.Views.Behaviors;
+﻿
+using maui_xaml.Views.Converters;
 
 namespace maui_xaml
 {
@@ -10,7 +11,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            MainPage = new BehaviorSamplePage();
+            MainPage = new ConverteSamplePage();
         }
     }
 }
