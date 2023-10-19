@@ -1,4 +1,4 @@
-﻿using maui_xaml.Views.Triggers;
+﻿using maui_xaml.Views.VisualStatesManager;
 
 namespace maui_xaml
 {
@@ -10,7 +10,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            MainPage = new TriggerMultiSamplePage();
+            MainPage = new VisualStateManagerSamplePage();
         }
     }
 }

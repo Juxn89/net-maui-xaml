@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="maui_xaml.Views.VisualStatesManager.VisualStateManagerSamplePage"
+             Title="VisualStateManagerSamplePage">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Write your email" FontSize="20" />
+        <Entry x:Name="EntryEmail" FontSize="20" TextChanged="onTextChanged">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup Name="EmailValidation">
+                    <VisualState Name="Incorrect">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="#fae2e8" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState Name="Correct">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="#cdeeea" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </Entry>
+    </VerticalStackLayout>
+</ContentPage>
