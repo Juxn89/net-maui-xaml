@@ -1,4 +1,4 @@
-﻿using maui_xaml.Views.VisualStatesManager;
+﻿using maui_xaml.Views.Behaviors;
 
 namespace maui_xaml
 {
@@ -10,7 +10,7 @@ namespace maui_xaml
         {
             InitializeComponent();
 
-            MainPage = new VisualStateManagerSamplePage();
+            MainPage = new BehaviorSamplePage();
         }
     }
 }
