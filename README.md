@@ -41,3 +41,4 @@ Tipos de triggers:
 - [Build accessible apps with semantic properties](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/accessibility)
 - [Design consistent .NET MAUI XAML pages by using shared resources](https://learn.microsoft.com/en-us/training/modules/use-shared-resources/)
 - [Learning to use Behaviors in Xamarin Forms](https://askxammy.com/learning-to-use-behaviors-in-xamarin-forms/)
+- [Idiomas compatibles](https://learn.microsoft.com/es-mx/windows/apps/publish/publish-your-app/supported-languages?pivots=store-installer-pwa)
